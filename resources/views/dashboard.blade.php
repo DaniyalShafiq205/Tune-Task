@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #354aa9;color:white">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #354aa9;color:white">
         <i class="fa-solid fa-bars mr-3" style="font-size: 18px;"></i>
         <span class="ml-2 mr-5 " style="font-size: 23px;">User Dashboard</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

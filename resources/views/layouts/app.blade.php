@@ -124,40 +124,6 @@
         .card-subtitle {
             font-size: 19px;
         }
-
-
-        ::-webkit-input-placeholder {
-            /* WebKit, Blink, Edge */
-            color: white;
-        }
-
-        :-moz-placeholder {
-            /* Mozilla Firefox 4 to 18 */
-            color: white;
-            opacity: 1;
-        }
-
-        ::-moz-placeholder {
-            /* Mozilla Firefox 19+ */
-            color: white;
-            opacity: 1;
-        }
-
-        :-ms-input-placeholder {
-            /* Internet Explorer 10-11 */
-            color: white;
-        }
-
-        ::-ms-input-placeholder {
-            /* Microsoft Edge */
-            color: white;
-        }
-
-        ::placeholder {
-            /* Most modern browsers support this now. */
-            color: white;
-        }
-
     </style>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"> </script>
 </head>
@@ -170,7 +136,7 @@
     </div>
 
     <div id="app">
-        <main class="py-4 bg-white" style="font-family: system-ui;">
+        <main class="pb-4 bg-white" style="font-family: system-ui;">
             @yield('content')
         </main>
     </div>
