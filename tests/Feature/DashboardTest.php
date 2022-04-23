@@ -3,15 +3,10 @@
 namespace Tests\Feature;
 
 use App\Models\Log;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 class DashboardTest extends TestCase
 {
-
-    use DatabaseTransactions;
 
     protected function setUp(): void
     {
